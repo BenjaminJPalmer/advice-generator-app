@@ -49,7 +49,7 @@ input {
   border-radius: 0;
 }
 
-.flex-center, .wrapper {
+.flex-center, #circle, .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@ body {
 .wrapper {
   margin: 0 auto;
   height: 100%;
-  max-width: 50%;
+  max-width: 40%;
 }
 
 main {
@@ -72,11 +72,30 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #cee3e9;
+}
+
+p {
+  color: #52ffa8;
+  padding-top: 50px;
 }
 
 blockquote {
   font-size: 28px;
   text-align: center;
+  padding: 30px 20px 0 20px;
+}
+
+main > img {
+  padding: 30px 0;
+}
+
+#circle {
+  background-color: #52ffa8;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: -2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

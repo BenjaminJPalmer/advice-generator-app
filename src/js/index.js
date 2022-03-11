@@ -6,7 +6,7 @@ function newQuote() {
         .then(response => response.json())
         .then(data => {
             adviceId.textContent = `${data.slip.id}`;
-            advice.textContent = `${data.slip.advice}`;
+            advice.textContent = `"${data.slip.advice}"`;
         });
     };
 
