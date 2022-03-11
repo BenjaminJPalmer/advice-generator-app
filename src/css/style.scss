@@ -16,3 +16,24 @@ $font-family: 'Outfit', sans-serif;
 // Screen sizes
 $desktop: 1440px;
 $mobile: 375px;
+
+body {
+    font-family: $font-family;
+    background-color: $dark-blue;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+main {
+    background-color: $grey-blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+blockquote {
+    font-size: $fs-quote;
+}
