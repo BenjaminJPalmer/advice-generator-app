@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" type="text/css" href="./src/css/style.css" />
@@ -18,11 +18,11 @@
     <body>
         <div class="wrapper">
             <main>
-                <p>Advice #<span id="adviceId"></span></p>
+                <p>ADVICE #<span id="adviceId"></span></p>
                 <blockquote id="advice"></blockquote>
                 <img src="images/pattern-divider-desktop.svg" alt="Divider" />
-                <div id="circle">
-                    <img src="images/icon-dice.svg" alt="Dice icon" onclick="newQuote()" />
+                <div id="circle" onclick="newQuote()">
+                    <img src="images/icon-dice.svg" alt="Dice icon" />
                 </div>
             </main>
         </div>

@@ -58,6 +58,8 @@ input {
 body {
   font-family: "Outfit", sans-serif;
   background-color: #323a49;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 
 .wrapper {
@@ -69,10 +71,10 @@ body {
 main {
   background-color: #4e5d73;
   border-radius: 15px;
+  box-shadow: 5px 10px 10px 20px rgba(0, 0, 0, 0.15), 10px 20px 10px 40px rgba(0, 0, 0, 0.1), 20px 40px 10px 80px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #cee3e9;
 }
 
 p {
@@ -84,10 +86,12 @@ blockquote {
   font-size: 28px;
   text-align: center;
   padding: 30px 20px 0 20px;
+  color: #cee3e9;
 }
 
 main > img {
   padding: 30px 0;
+  fill: #cee3e9;
 }
 
 #circle {
@@ -96,6 +100,10 @@ main > img {
   width: 4rem;
   height: 4rem;
   margin-bottom: -2rem;
+}
+
+#circle:hover {
+  box-shadow: 0 0 20px 20px rgba(82, 255, 168, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */
