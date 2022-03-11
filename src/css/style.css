@@ -49,6 +49,12 @@ input {
   border-radius: 0;
 }
 
+.flex-center, .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   background-color: #323a49;
@@ -56,11 +62,13 @@ body {
 
 .wrapper {
   margin: 0 auto;
+  height: 100%;
   max-width: 50%;
 }
 
 main {
   background-color: #4e5d73;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +76,7 @@ main {
 
 blockquote {
   font-size: 28px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
