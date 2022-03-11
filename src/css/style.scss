@@ -25,6 +25,10 @@ $mobile: 375px;
     justify-content: center;
 }
 
+.desktop {
+    display: none;
+}
+
 body {
     font-family: $font-family;
     background-color: $dark-blue;
@@ -35,7 +39,7 @@ body {
 .wrapper {
     margin: 0 auto;
     height: 100%;
-    max-width: 40%;
+    max-width: 20%;
     @extend .flex-center;
 }
 
@@ -77,4 +81,18 @@ main > img {
 
 #circle:hover {
     box-shadow: 0 0 20px 20px $green-hover;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .wrapper {
+        max-width: 40%;
+    }
 }
