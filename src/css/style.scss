@@ -105,4 +105,5 @@ body:not(.user-is-tabbing) input:focus,
 body:not(.user-is-tabbing) select:focus,
 body:not(.user-is-tabbing) textarea:focus {
     outline: none;
+    box-shadow: none;
 }
