@@ -87,15 +87,14 @@ p {
 }
 
 blockquote {
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
   padding: 30px 20px 0 20px;
   color: #cee3e9;
 }
 
 main > img {
-  padding: 30px 0;
-  fill: #cee3e9;
+  padding: 30px 20px;
 }
 
 #circle {
@@ -113,6 +112,10 @@ main > img {
 @media (min-width: 768px) {
   .mobile {
     display: none;
+  }
+
+  blockquote {
+    font-size: 28px;
   }
 
   .desktop {

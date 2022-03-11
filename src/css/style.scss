@@ -59,15 +59,14 @@ p {
 }
 
 blockquote {
-    font-size: $fs-quote;
+    font-size: 20px;
     text-align: center;
     padding: 30px 20px 0 20px;
     color: $cyan;
 }
 
 main > img {
-    padding: 30px 0;
-    fill: $cyan;
+    padding: 30px 20px;
 }
 
 #circle {
@@ -86,6 +85,10 @@ main > img {
 @media (min-width: 768px) {
     .mobile {
         display: none;
+    }
+
+    blockquote {
+        font-size: $fs-quote;
     }
 
     .desktop {
